@@ -41,9 +41,9 @@ parser.add_argument('--test', '-t', type=bool, default=False,
 args = parser.parse_args()
 
 gpu = args.gpu
-input_dir = args.input
-out_dir = args.out
+input_dir = args.snli
 glove_path = args.glove
+out_dir = args.out
 test_run = args.test
 
 n_epoch   = 25   # number of epochs
