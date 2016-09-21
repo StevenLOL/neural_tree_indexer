@@ -51,9 +51,6 @@ n_units   = 300  # number of units per layer
 batch_size = 32  # minibatch size
 eval_batch = 64
 
-# input_dir = '/project/umw_hong_yu/data_user/tsendee/'
-# input_dir = '/home/tsendeemts/'
-
 EMPTY = np.random.uniform(-0.1, 0.1, (1, 300)).astype(np.float32)
 joblib.dump(EMPTY, out_dir + '/NTIFullTreeMatching.empty')
 
